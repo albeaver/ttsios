@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4A686741DFE250200714343 /* 78c8dff1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4A686731DFE250200714343 /* 78c8dff1.jpeg */; };
 		C4DF7EDF1DFE23E000C78648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF7EDE1DFE23E000C78648 /* AppDelegate.swift */; };
 		C4DF7EE11DFE23E000C78648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF7EE01DFE23E000C78648 /* ViewController.swift */; };
 		C4DF7EE41DFE23E000C78648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DF7EE21DFE23E000C78648 /* Main.storyboard */; };
 		C4DF7EE71DFE23E000C78648 /* ttsiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4DF7EE51DFE23E000C78648 /* ttsiOS.xcdatamodeld */; };
 		C4DF7EE91DFE23E000C78648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DF7EE81DFE23E000C78648 /* Assets.xcassets */; };
 		C4DF7EEC1DFE23E000C78648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DF7EEA1DFE23E000C78648 /* LaunchScreen.storyboard */; };
+		C4DF7EF51DFE245600C78648 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DF7EF41DFE245600C78648 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4A686731DFE250200714343 /* 78c8dff1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 78c8dff1.jpeg; sourceTree = "<group>"; };
 		C4DF7EDB1DFE23E000C78648 /* ttsiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ttsiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DF7EDE1DFE23E000C78648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4DF7EE01DFE23E000C78648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		C4DF7EE81DFE23E000C78648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4DF7EEB1DFE23E000C78648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4DF7EED1DFE23E000C78648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DF7EF41DFE245600C78648 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DF7EF51DFE245600C78648 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				C4DF7EDD1DFE23E000C78648 /* ttsiOS */,
 				C4DF7EDC1DFE23E000C78648 /* Products */,
+				C4DF7EF31DFE245600C78648 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +67,19 @@
 				C4DF7EE21DFE23E000C78648 /* Main.storyboard */,
 				C4DF7EE81DFE23E000C78648 /* Assets.xcassets */,
 				C4DF7EEA1DFE23E000C78648 /* LaunchScreen.storyboard */,
+				C4A686731DFE250200714343 /* 78c8dff1.jpeg */,
 				C4DF7EED1DFE23E000C78648 /* Info.plist */,
 				C4DF7EE51DFE23E000C78648 /* ttsiOS.xcdatamodeld */,
 			);
 			path = ttsiOS;
+			sourceTree = "<group>";
+		};
+		C4DF7EF31DFE245600C78648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4DF7EF41DFE245600C78648 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +114,7 @@
 				TargetAttributes = {
 					C4DF7EDA1DFE23E000C78648 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VFJCFFLN68;
+						DevelopmentTeam = 59GWVZ6USY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A686741DFE250200714343 /* 78c8dff1.jpeg in Resources */,
 				C4DF7EEC1DFE23E000C78648 /* LaunchScreen.storyboard in Resources */,
 				C4DF7EE91DFE23E000C78648 /* Assets.xcassets in Resources */,
 				C4DF7EE41DFE23E000C78648 /* Main.storyboard in Resources */,
@@ -265,10 +281,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VFJCFFLN68;
+				DEVELOPMENT_TEAM = 59GWVZ6USY;
 				INFOPLIST_FILE = ttsiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexbeaver.ttsiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandbobby.ttsiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -278,10 +294,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VFJCFFLN68;
+				DEVELOPMENT_TEAM = 59GWVZ6USY;
 				INFOPLIST_FILE = ttsiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexbeaver.ttsiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandbobby.ttsiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -306,6 +322,7 @@
 				C4DF7EF21DFE23E000C78648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
